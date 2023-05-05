@@ -1,0 +1,22 @@
+{
+  "name": "german-test",
+  "version": "1.0.0.",
+  "description": "",
+  "main": "./source/index.ts",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "node ./build/bundle.js",
+    "prod": "npm run build && npm run start",
+    "dev": "ts-node ./source/index.ts",
+    "test": "ts-node ./source/validation.test.ts"
+  },
+  "author": "Nathan Marye",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

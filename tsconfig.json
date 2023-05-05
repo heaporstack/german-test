@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "CommonJS",
+    "outDir": "./build/tsc",
+    "rootDir": "./source/",
+    "strict": true,
+    "noEmitOnError": true,
+    "experimentalDecorators": true
+  }
+}
